@@ -1,16 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
 * {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
 }
 
 body {
     display: flex;
     flex-direction: column;
 
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
-  /* The code below allows me to put the footer at the bottom */
-  min-height: 100vh;
+    /* The code below allows me to put the footer at the bottom */
+    min-height: 100vh;
 }
 
 .body {
@@ -25,7 +30,7 @@ body {
     align-items: center;
     height: 80px;
 
-    padding: 0 15%;
+    padding: 0 20%;
 }
 
 .logo {
@@ -33,7 +38,6 @@ body {
     color: #F9FAF8;
     font-weight: 900;
 }
-
 
 ul {
     list-style: none;
@@ -44,7 +48,8 @@ ul {
     gap: 20px;
 }
 
-a, .secondary {
+a,
+.secondary {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7E8;
@@ -55,7 +60,7 @@ a, .secondary {
     background-color: #1F2937;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15%;
+    padding: 100px 20%;
     gap: 30px;
 }
 
@@ -63,7 +68,7 @@ a, .secondary {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 .main {
@@ -106,4 +111,26 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #E5E7EB;
+    padding: 150px 500px;
+}
+
+.saying {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 900;
+    font-size: 28px;
+    align-self: flex-end;
 }
