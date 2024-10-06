@@ -29,9 +29,11 @@ a {
     background-color: #1F2937;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
+
+    padding: 0 20%;
 }
 
 .logo
