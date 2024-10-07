@@ -142,13 +142,14 @@ button {
     align-items: center;
 
     padding: 80px 20%;
+    padding-bottom: 150px;
     font-size: 24px;
-    gap: 50px;
 }
 
 .info .main {
     font-size: 36px;
     color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .info .secondary {
@@ -160,6 +161,7 @@ button {
     height: 150px;
     border: 5px solid  #3882F6;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .info .container {
@@ -167,16 +169,16 @@ button {
     justify-content: center;
     align-items: center;
     gap: 50px;
+
+    text-align: center;
 }
 
 .infobox {
     max-width: 150px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    text-align: center;
 }
 
 .lastchance {
