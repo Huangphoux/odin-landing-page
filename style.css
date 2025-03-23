@@ -135,7 +135,7 @@ button {
     font-weight: 900;
 }
 
-.info  {
+.info {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,7 +159,7 @@ button {
 .infoimage {
     width: 150px;
     height: 150px;
-    border: 5px solid  #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 10px;
     margin-bottom: 20px;
 }
